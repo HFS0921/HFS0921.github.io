@@ -2,7 +2,8 @@ body {
   background-color: white;
   margin: 0px;
   padding: 0px;
-  font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu
+  font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+  min-width: 1200px;
 }
 .container {
   position: absolute;
