@@ -10,6 +10,13 @@
     var z = Math.random()*90;
     document.getElementById("container").style.left=z+'%';
   }
+  function showImg(obj){
+    document.getElementById("show_img").style.display = "";
+  }
+  function hideImg (obj) {
+    // body... 
+      document.getElementById("show_img").style.display = "none";
+  }
   </script>
  
 </head>
@@ -75,11 +82,11 @@
        <p>Less is more</p>
     </div>
   </div>
-  <div class="blurImage">
+  <div class="blurImage" onmouseover="showImg(this)" onmouseout="hideImg(this)">
     <img src="img/3.jpg" />
     <div class="blurImage__copy">
-      <h1>Coming soon...</h1>
-       <p>Coming soon...</p>
+      <h1>八卦食客</h1>
+       <p>:)</p>
     </div>
 </div>
 <div class="blurImage">
@@ -89,7 +96,9 @@
        <p>Coming soon...</p>
     </div>
 </div>
-
 </div>
+<div id="show_img" style=" height: 200px;width: 200px;z-index: 10;position: absolute;top: 10%;left: 60%;display: none;">
+  <img src="img/3.jpg" style="height: 200px;width: 200px;" alt="">
+<div>
 </body>
 </html>
