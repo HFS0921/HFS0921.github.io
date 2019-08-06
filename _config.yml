@@ -30,8 +30,8 @@ plainwhite:
 # - about.md
 
 # Build settings
-theme: plainwhite
+theme: none
 
 plugins:
-  - jekyll-seo-tag
-#  - jekyll-feed
+  #- jekyll-seo-tag
+  #  - jekyll-feed
